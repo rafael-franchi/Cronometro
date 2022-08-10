@@ -1,0 +1,47 @@
+body {
+    background: rgba(55, 102, 230, 0.918);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align:center;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+p {
+    font-size:1em;  
+}
+#seconds, #tens{
+    font-size:6em;
+}
+
+button{
+    /*@include corners (5px);*/
+    background: rgb(235, 252, 235);
+    color: black;
+    border: solid 1px black;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+}
+button:hover{
+	@include transition;
+	background: white;
+	border: solid 1px black;
+	color: base-color;
+}
+
