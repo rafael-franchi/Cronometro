@@ -45,3 +45,10 @@ button:hover{
 	color: base-color;
 }
 
+#footer {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+
